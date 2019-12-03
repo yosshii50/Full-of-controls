@@ -4,7 +4,7 @@
 
         Dim StartTime As Date = Now
 
-        For WrkIdx As Integer = 0 To 1
+        For WrkIdx As Integer = 0 To 10
 
             Dim WrkFrm As Form2
 
@@ -22,13 +22,13 @@
 
         Dim StartTime As Date = Now
 
-        For WrkIdx As Integer = 0 To 0
+        For WrkIdx As Integer = 0 To 10
 
             Dim WrkFrm As Form3
 
             WrkFrm = New Form3
             WrkFrm.Show()
-            'WrkFrm.Dispose()
+            WrkFrm.Dispose()
 
         Next
 
